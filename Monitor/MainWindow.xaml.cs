@@ -27,7 +27,10 @@ namespace Monitor
             InitializeComponent();
             //不在任务栏显示
             this.ShowInTaskbar = false;
+
+
             Info = new Information();
+            //每秒刷新一次
             Task task = new Task(async () => {
                 while (true)
                 {
@@ -92,6 +95,12 @@ namespace Monitor
             }
             computer.Close();
         }
+
+        //鼠标拖拽
+        private void Window_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 
     //openhardwareMonitor
@@ -114,6 +123,7 @@ namespace Monitor
         public void VisitParameter(IParameter parameter) { }
     }
 
+    //信息载体
     public class Information
     {
         public float CPULoad { get; set; }

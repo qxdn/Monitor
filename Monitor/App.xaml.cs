@@ -24,6 +24,7 @@ namespace Monitor
         private TaskbarIcon _taskbar;
     }
 
+    //右键任务栏
     public class NotifyIconViewModel
     {
         /// <summary>

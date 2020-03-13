@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Monitor"
         mc:Ignorable="d"
         Title="MainWindow" Height="127.114" Width="131.064"
-        Opacity="0.5" AllowsTransparency="True" WindowStyle="None" >
+        Opacity="0.5" AllowsTransparency="True" WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Topmost="True"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown_1"
+        >
     <Grid>
         <Label Content="CPU负载" HorizontalAlignment="Left" Height="31" Margin="10,13,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.44,-0.729"/>
         <Label Content="0" Name="CPULoad" HorizontalAlignment="Left" Height="31" Margin="75,13,-4.8,0" VerticalAlignment="Top" Width="61"/>
