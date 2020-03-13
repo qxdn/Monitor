@@ -9,11 +9,11 @@
         Opacity="0.5" AllowsTransparency="True" WindowStyle="None" >
     <Grid>
         <Label Content="CPU负载" HorizontalAlignment="Left" Height="31" Margin="10,13,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.44,-0.729"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="31" Margin="75,13,-4.8,0" VerticalAlignment="Top" Width="61"/>
+        <Label Content="0" Name="CPULoad" HorizontalAlignment="Left" Height="31" Margin="75,13,-4.8,0" VerticalAlignment="Top" Width="61"/>
         <Label Content="CPU温度" HorizontalAlignment="Left" Height="31" Margin="10,49,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.6,-0.2"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="31" Margin="75,49,-4.8,0" VerticalAlignment="Top" Width="61" RenderTransformOrigin="0.42,-0.123"/>
+        <Label Content="0" Name="CPUTemp" HorizontalAlignment="Left" Height="31" Margin="75,49,-4.8,0" VerticalAlignment="Top" Width="61" RenderTransformOrigin="0.42,-0.123"/>
         <Label Content="内存负载" HorizontalAlignment="Left" Height="31" Margin="10,85,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.46,1.852"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="31" Margin="75,85,-4.8,0" VerticalAlignment="Top" Width="61"/>
+        <Label Content="0" Name="MEMLoad" HorizontalAlignment="Left" Height="31" Margin="75,85,-4.8,0" VerticalAlignment="Top" Width="61"/>
 
     </Grid>
 </Window>
